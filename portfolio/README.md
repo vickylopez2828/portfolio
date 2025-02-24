@@ -14,3 +14,4 @@ Currently, two official plugins are available:
     - react/icons
     - tailwindcss-animated
     - tailwind scroll-bar
+    - react slick carrousel

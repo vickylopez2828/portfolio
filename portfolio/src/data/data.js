@@ -17,7 +17,7 @@ export const itemsNav =[
     {
         id:3,
         icon: CodeBracketSquareIcon  ,
-        text: 'Habilidades',
+        text: 'Conocimientos',
         path:'/skills'
     },
     {
