@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { SiGithub, SiGmail, SiLinkedin } from 'react-icons/si'
 export default function Nav() {
   return (
-    <div className='bg-[rgb(26,26,26)] hidden sm:flex sm:w-auto lg:w-1/5 flex-col justify-between gap-4 rounded-[10px] pt-4'>
+    <div className='bg-[rgb(26,26,26)] sm:flex sm:w-auto lg:w-1/5 flex-col justify-between gap-4 rounded-[10px] pt-4'>
         <div className='flex flex-col items-center '>
           <div className='mx-10 mb-4 bg-gradient-to-r from-[#0a87f5] via-[#ae31fc] to-[#fc31f9] rounded-xl'>
                 <div className='m-0.5 bg-slate-800 rounded-xl'>

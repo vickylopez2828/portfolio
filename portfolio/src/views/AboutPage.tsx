@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 export default function AboutPage() {
   return (
-    <div className='w-full  sm:w-4/5 relative bg-[rgb(26,26,26)] mx-6 my-2 lg:mx-16 rounded-lg overflow-y-scroll   '>
+    <div className='w-full  sm:w-4/5 relative bg-[rgb(26,26,26)] mx-auto my-2 lg:mx-16 rounded-lg overflow-y-scroll   '>
       
       <div className="flex flex-col gap-4 justify-center items-center mt-8 animate-fade-down">
         <div className="flex gap-2 items-center">

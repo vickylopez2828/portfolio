@@ -16,7 +16,7 @@ export default function Router (){
         <BrowserRouter>
             <Routes>
                 <Route element={<Layout/>}>
-                    <Route path="/" element={<IndexPage/>}/>
+                    <Route path="/" element={<AboutPage/>}/>
                     <Route path="/about" element={<AboutPage/>}/>
                     <Route path="/skills" element={<SkillsPage/>}/>
                     <Route path="/education" element={<EducationPage/>}/>

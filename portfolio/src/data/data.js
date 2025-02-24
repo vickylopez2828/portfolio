@@ -39,3 +39,43 @@ export const itemsNav =[
         path: '/contact'
     }
 ]
+
+
+export const itemsNavMobile =[
+    {
+        id:1,
+        icon: BookOpenIcon ,
+        text: '',
+        path: '/about'
+    },
+    {
+        id:2,
+        icon: AcademicCapIcon,
+        text: '',
+        path: '/education'
+    },
+    {
+        id:3,
+        icon: CodeBracketSquareIcon  ,
+        text: '',
+        path:'/skills'
+    },
+    {
+        id:4,
+        icon: BriefcaseIcon,
+        text: '',
+        path:'/experience'
+    },
+    {
+        id:5,
+        icon: FolderIcon ,
+        text: '',
+        path: '/projects'
+    },
+    {
+        id:6,
+        icon: EnvelopeIcon,
+        text: '',
+        path: '/contact'
+    }
+]
