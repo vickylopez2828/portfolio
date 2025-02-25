@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Oculta las flechas en Chrome/Edge */
+::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  /* Personaliza el scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #fc31f94e;
+    border-radius: 4px;
+  }
+  
+
