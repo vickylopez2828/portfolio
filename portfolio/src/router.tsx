@@ -13,16 +13,16 @@ import ContactPage from "./views/ContactPage";
 
 export default function Router (){
     return(
-        <BrowserRouter basename="/portfolio">
+        <BrowserRouter>
             <Routes>
                 <Route element={<Layout/>}>
-                    <Route index element={<AboutPage />} />
-                    <Route path="about" element={<AboutPage/>}/>
-                    <Route path="skills" element={<SkillsPage/>}/>
-                    <Route path="education" element={<EducationPage/>}/>
-                    <Route path="experience" element={<ExperiencePage/>}/>
-                    <Route path="projects" element={<ProjectsPage/>}/>
-                    <Route path="contact" element={<ContactPage/>}/>
+                    <Route path="/" element={<AboutPage/>}/>
+                    <Route path="/about" element={<AboutPage/>}/>
+                    <Route path="/skills" element={<SkillsPage/>}/>
+                    <Route path="/education" element={<EducationPage/>}/>
+                    <Route path="/experience" element={<ExperiencePage/>}/>
+                    <Route path="/projects" element={<ProjectsPage/>}/>
+                    <Route path="/contact" element={<ContactPage/>}/>
                 </Route>
                
 
