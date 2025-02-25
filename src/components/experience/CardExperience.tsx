@@ -4,7 +4,7 @@ import SkillItem from '../education/SkillItem'
 import CornDecoration from '../CornDecoration'
 export default function CardExperience({experience}) {
   return (
-      <div className="bg-[rgb(36,36,36)] relative   sm:w-4/5 animate-fade-right flex flex-col mx-3 sm:mx-auto rounded-lg px-4 py-2 md:px-16 md:py-8 my-2">
+      <div className="bg-[rgb(36,36,36)] relative sm:w-4/5 animate-fade-right flex flex-col mx-3 sm:mx-auto rounded-lg py-4 px-6 md:px-16 md:py-8 my-2">
                 <CornDecoration coordY={'top'} coordX={'left'} />
                 <CornDecoration coordY={'bottom'} coordX={'right'} />
                 <div className='absolute p-1 hidden md:flex top-16 right-0 bg-gradient-to-r from-[#0a87f5] via-[#ae31fc] to-[#fc31f9] rounded-s-full'>
@@ -25,7 +25,7 @@ export default function CardExperience({experience}) {
                     
                   </div>
                 </div>
-                <div className='w-full md:w-2/3'>
+                <div className='w-full md:w-2/3 '>
                   <h3 className='text-white text-lg md:text-2xl ' ><span className="font-bold text-[#fc31f9]">{experience.resaltado} </span>{experience.titulo}</h3>
                   <div className='flex gap-2 my-2 items-center'>
                     <span className=''><FaUniversity/></span>
