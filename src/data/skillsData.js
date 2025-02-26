@@ -1,7 +1,7 @@
 import { SiAngular, SiFigma , SiPython, SiGithub, SiGitlab, SiDjango, SiMysql, SiJest, SiSequelize, SiSwagger, SiPostgresql, SiExpress,  SiReact, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap    } from "react-icons/si";
 import { FaJava, FaNode } from "react-icons/fa";
-import { RiNextjsFill } from "react-icons/ri";
-import { DiScrum } from "react-icons/di";
+// import { RiNextjsFill } from "react-icons/ri";
+// import { DiScrum } from "react-icons/di";
 
 export const frontend = [
     {
@@ -44,11 +44,11 @@ export const frontend = [
         name: "Angular",
         icon: SiAngular,
     },
-    {
-        id: 9,
-        name: "Next js",
-        icon: RiNextjsFill,
-    },
+    // {
+    //     id: 9,
+    //     name: "Next js",
+    //     icon: RiNextjsFill,
+    // },
     {
         id: 10,
         name: "Figma ",
@@ -117,11 +117,11 @@ export const backend = [
         name: "GitLab",
         icon: SiGitlab,
     },
-    {
-        id: 13,
-        name: "Scrum",
-        icon: DiScrum,
-    },
+    // {
+    //     id: 13,
+    //     name: "Scrum",
+    //     icon: DiScrum,
+    // },
 ];
 
 export const softSkills = [

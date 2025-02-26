@@ -10,28 +10,29 @@ export const itemsNav =[
     },
     {
         id:2,
-        icon: AcademicCapIcon,
-        text: 'Educación',
-        path: '/education'
+        icon: FolderIcon ,
+        text: 'Proyectos',
+        path: '/projects'
     },
     {
         id:3,
-        icon: CodeBracketSquareIcon  ,
-        text: 'Conocimientos',
-        path:'/skills'
-    },
-    {
-        id:4,
         icon: BriefcaseIcon,
         text: 'Experiencia',
         path:'/experience'
     },
     {
-        id:5,
-        icon: FolderIcon ,
-        text: 'Proyectos',
-        path: '/projects'
+        id:4,
+        icon: AcademicCapIcon,
+        text: 'Educación',
+        path: '/education'
     },
+    {
+        id:5,
+        icon: CodeBracketSquareIcon  ,
+        text: 'Conocimientos',
+        path:'/skills'
+    },
+    
     {
         id:6,
         icon: EnvelopeIcon,
@@ -50,27 +51,27 @@ export const itemsNavMobile =[
     },
     {
         id:2,
-        icon: AcademicCapIcon,
+        icon: FolderIcon ,
         text: '',
-        path: '/education'
+        path: '/projects'
     },
     {
         id:3,
-        icon: CodeBracketSquareIcon  ,
-        text: '',
-        path:'/skills'
-    },
-    {
-        id:4,
         icon: BriefcaseIcon,
         text: '',
         path:'/experience'
     },
     {
-        id:5,
-        icon: FolderIcon ,
+        id:4,
+        icon: AcademicCapIcon,
         text: '',
-        path: '/projects'
+        path: '/education'
+    },
+    {
+        id:5,
+        icon: CodeBracketSquareIcon  ,
+        text: '',
+        path:'/skills'
     },
     {
         id:6,
