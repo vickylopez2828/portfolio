@@ -15,3 +15,6 @@ Currently, two official plugins are available:
     - tailwindcss-animated
     - tailwind scroll-bar
     - react slick carrousel
+    - emailJs
+    - react toastify
+    - react-hook-form

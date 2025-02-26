@@ -17,4 +17,23 @@
     border-radius: 4px;
   }
   
+  .Toastify__progress-bar {
+    background: linear-gradient(90deg, #0a87f5, #ae31fc, #fc31f9);
+  }
 
+.Toastify__toast--success svg {
+  fill: #fc31f9 !important; 
+}
+@media (max-width: 640px) { /* sm: breakpoint en Tailwind */
+  .Toastify__toast {
+    font-size: 14px !important; /* Letra más chica */
+    padding: 6px !important; /* Menos padding */
+    min-height: 50px !important; /* Altura más chica */
+  }
+  .Toastify__toast-body {
+    margin: 0 !important;
+  }
+  .Toastify__progress-bar {
+    height: 3px !important; /* Barra de progreso más fina */
+  }
+}

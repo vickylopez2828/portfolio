@@ -58,18 +58,23 @@ export default function ProjectPopup({ project, closePopup }) {
         {/* <div className="z-10 h-0 mx-auto"><iframe src="https://www.loom.com/embed/14e58cb8f1ee4057a8858d8391887bfa?sid=cfaf9320-4285-449c-9e1a-2d76f877d651" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className="width-full height-full"></iframe></div> */}
         <p className="sm:pl-8 pt-4 text-gray-300 overflow-y-auto">{project.descriptionLarge}</p>
         <div className="flex gap-8 items-center sm:pl-8 mt-auto">
-                    <div className='w-fit  my-2 hover:shadow-[0_0_20px_rgba(174,49,252,0.6)] bg-gradient-to-r from-[#0a87f5] via-[#ae31fc] to-[#fc31f9] rounded-full'>
+                  {
+                    project.demo &&(
+                      <div className='w-fit  my-2 hover:shadow-[0_0_20px_rgba(174,49,252,0.6)] bg-gradient-to-r from-[#0a87f5] via-[#ae31fc] to-[#fc31f9] rounded-full'>
                         <div className=' m-0.5 bg-slate-800 rounded-full p-1 lg:p-2 text-center'>
                             <a className='px-4 py-2' href={project.demo}  target="_blanck"
                                 
                             >Demo</a>
                         </div>
                     </div> 
+                    )
+                  }
+                    
                     <div className='w-fit  my-2 hover:shadow-[0_0_20px_rgba(174,49,252,0.6)] bg-gradient-to-r from-[#0a87f5] via-[#ae31fc] to-[#fc31f9] rounded-full'>
                         <div className=' m-0.5 bg-slate-800 rounded-full p-1 lg:p-2 text-center'>
-                            <a className='px-4 py-2' href="#" target="_blanck"
+                            <a className='px-4 py-2' href={project.git} target="_blanck"
                                 
-                            >Video</a>
+                            >Code</a>
                         </div>
                     </div>
                 </div>

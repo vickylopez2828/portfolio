@@ -66,12 +66,16 @@ export default function CardProject({ project, onClick }) {
                 </div>
             </div> 
             <div className='flex gap-4'>
+                {
+                    project.demo && (
+                         <div>
+                            <a href={project.demo} target="_blanck"><BiLinkExternal className="w-6 h-6 lg:w-8 lg:h-8 inline-block text-[#ae31fc] hover:scale-110 hover:text-[#fc31f9]"/></a>
+                        </div>
+                    )
+                }
+               
                 <div>
-                    <a href="https://github.com/vickylopez2828" target="_blanck"><BiLinkExternal className="w-6 h-6 lg:w-8 lg:h-8 inline-block text-[#ae31fc] hover:scale-110 hover:text-[#fc31f9]"/></a>
-                    
-                </div>
-                <div>
-                    <a href="https://github.com/vickylopez2828" target="_blanck"><SiGithub className="w-6 h-6 lg:w-8 lg:h-8 inline-block text-[#ae31fc] hover:scale-110 hover:text-[#fc31f9]"/></a>
+                    <a href={project.git} target="_blanck"><SiGithub className="w-6 h-6 lg:w-8 lg:h-8 inline-block text-[#ae31fc] hover:scale-110 hover:text-[#fc31f9]"/></a>
                     
                 </div>
             </div>
