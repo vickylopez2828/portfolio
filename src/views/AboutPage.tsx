@@ -22,7 +22,7 @@ export default function AboutPage() {
 
           <CornDecoration coordY={'bottom'} coordX={'right'} />
 
-            <p className="text-[rgb(146,146,146)] indent-8">Soy <span className="font-bold text-[#fc31f9]">Técnica en Desarrollo de Aplicaciones</span>, especializada en el desarrollo <span className="font-bold text-[#fc31f9]">Frontend</span> , con experiencia en Backend.</p>
+            <p className="text-[rgb(146,146,146)] indent-8">Soy <span className="font-bold text-[#fc31f9]">Programadora FullStack</span>, especializada en <span className="font-bold text-[#fc31f9]">Frontend</span>, con experiencia en Backend.</p>
             <p className="text-[rgb(146,146,146)] indent-8">Cuento con experiencia en <span className="font-bold text-[#fc31f9]">tecnologías modernas</span> como React.js, Node.js, Python, Django, y bases de datos relacionales como MySQL y PostgreSQL.</p>
             <p className="text-[rgb(146,146,146)] indent-8">Siempre busco <span className="font-bold text-[#fc31f9]">aprender nuevas herramientas</span>   y <span className="font-bold text-[#fc31f9]">aplicar buenas prácticas</span> para construir soluciones escalables y eficientes. 🚀</p>
         </div>
