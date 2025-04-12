@@ -19,6 +19,10 @@ export default function SkillsPage() {
         tecnologias={backend}
         titulo={"Backend"}
       />
+      <ContainerSkills
+        tecnologias={softSkills}
+        titulo={"Otros"}
+      />
      {/* <ContainerSoftSkills
         tecnologias={softSkills}
         titulo={"Soft Skills"}

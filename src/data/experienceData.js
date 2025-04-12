@@ -112,7 +112,7 @@ const igrowker = [
     },
     {
         id: 14,
-        skill: 'Kanbam'
+        skill: 'Kanban'
     },
 ]
 export const expGeneos = {

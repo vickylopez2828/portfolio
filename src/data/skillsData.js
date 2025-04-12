@@ -1,7 +1,10 @@
-import { SiAngular, SiFigma , SiPython, SiGithub, SiGitlab, SiDjango, SiMysql, SiJest, SiSequelize, SiSwagger, SiPostgresql, SiExpress,  SiReact, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap    } from "react-icons/si";
+import { SiAngular, SiFigma , SiPython, SiGithub, SiGitlab, SiDjango, SiMysql, SiJest, SiSequelize, SiSwagger, SiPostgresql, SiExpress,  SiReact, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap  } from "react-icons/si";
 import { FaJava, FaNode } from "react-icons/fa";
 // import { RiNextjsFill } from "react-icons/ri";
-// import { DiScrum } from "react-icons/di";
+import { DiScrum } from "react-icons/di";
+import { PiKanbanBold } from "react-icons/pi";
+import materialIcon from "./materialIcon";
+
 
 export const frontend = [
     {
@@ -35,12 +38,17 @@ export const frontend = [
         icon: SiTailwindcss ,
     },
     {
-        id: 7,
+        id:7, 
+        name: 'Material UI',
+        icon: materialIcon
+    },
+    {
+        id: 8,
         name: "Bootstrap",
         icon: SiBootstrap ,
     },
     {
-        id: 8,
+        id: 9,
         name: "Angular",
         icon: SiAngular,
     },
@@ -107,59 +115,52 @@ export const backend = [
         name: "Swagger",
         icon: SiSwagger,
     },
-    {
-        id: 11,
-        name: "GitHub",
-        icon: SiGithub,
-    },
-    {
-        id: 12,
-        name: "GitLab",
-        icon: SiGitlab,
-    },
-    // {
-    //     id: 13,
-    //     name: "Scrum",
-    //     icon: DiScrum,
-    // },
+   
+    
 ];
 
 export const softSkills = [
     {
         id: 1,
-        name: "HTML",
-        icon: SiHtml5,
+        name: "GitHub",
+        icon: SiGithub,
     },
     {
         id: 2,
-        name: "CSS",
-        icon: SiCss3,
+        name: "GitLab",
+        icon: SiGitlab,
     },
+   
     {
         id: 3,
-        name: "JavaScript",
-        icon: SiJavascript,
+        name: "Scrum",
+        icon: DiScrum,
     },
     {
         id: 4,
-        name: "TypeScript",
-        icon: SiTypescript,
+        name: "Kanban",
+        icon: PiKanbanBold,
     },
-    {
-        id: 5,
-        name: "React Js",
-        icon: SiReact,
-    },
-    {
-        id: 6,
-        name: "Tailwind",
-        icon: SiTailwindcss ,
-    },
-    {
-        id: 7,
-        name: "Bootstrap",
-        icon: SiBootstrap ,
-    },
+    // {
+    //     id: 4,
+    //     name: "TypeScript",
+    //     icon: SiTypescript,
+    // },
+    // {
+    //     id: 5,
+    //     name: "React Js",
+    //     icon: SiReact,
+    // },
+    // {
+    //     id: 6,
+    //     name: "Tailwind",
+    //     icon: SiTailwindcss ,
+    // },
+    // {
+    //     id: 7,
+    //     name: "Bootstrap",
+    //     icon: SiBootstrap ,
+    // },
     
 ];
 export const idiomas = [
