@@ -32,7 +32,7 @@ export default function NavMobile() {
                         >
                         
                 
-                        <item.icon className="w-4 h-4 lg:w-6 lg:h-6 mx-auto" /> 
+                        <item.icon className="w-8 h-8 mx-auto" /> 
                         
                     </NavLink>
                     ))}

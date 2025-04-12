@@ -14,7 +14,7 @@ export default function NavItems({icon: Icon, text, path}) {
         >
          
 
-         <Icon className="w-4 h-4 lg:w-6 lg:h-6 " /> 
+         <Icon className="w-8 h-8 lg:w-6 lg:h-6 " /> 
          
         <p className='font-quicksand text-xs lg:text-base font-black    '>{text}</p>
     </NavLink>

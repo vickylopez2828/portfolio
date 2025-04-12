@@ -1,7 +1,7 @@
 import React from 'react'
 import CardEducation from '../components/education/CardEducation'
 import { android, tudai } from '../data/educationData'
-import { expGeneos, proyPersonales } from '../data/experienceData'
+import { expGeneos, expIgrowker, proyPersonales } from '../data/experienceData'
 import CardExperience from '../components/experience/CardExperience'
 
 export default function ExperiencePage() {
@@ -11,6 +11,7 @@ export default function ExperiencePage() {
         <div className="flex justify-center items-center m-4  sm:m-8 animate-fade-down"> 
             <h1 className= 'text-2xl sm:text-4xl font-bold text-white '>Mi<span className="text-transparent tracking-widest bg-clip-text bg-gradient-to-r from-[#0a87f5] via-[#ae31fc] to-[#fc31f9]"> Experiencia</span></h1>    
         </div>
+        <CardExperience experience={expIgrowker}/>
         <CardExperience
           experience={expGeneos}
         />
