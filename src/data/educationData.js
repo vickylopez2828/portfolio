@@ -336,8 +336,11 @@ export const reactEducation = {
     titulo: 'React y TypeScript',
     resaltado:'Curso',
     lugar: 'Udemy - 57hs',
-    anio: 2024,
-    periodo: null,
+    anio: 2025,
+    periodo: {
+        inicio: 'Dic-2024',
+        fin: 'Abril-2025'
+    },
     descripcion: "Aprendí a crear proyectos reales abarcando todo el ecosistema de React: State, Hooks, crear mis propios hooks, hooks avanzados, estado global, componentes y eventos, consultar API's externas y crear mis propias API's. Realice más de 10 proyectos, en los cuales pude poner en práctica los conocimientos adquiridos.",
     habilidades: null,
     skill: react
@@ -392,3 +395,22 @@ export const contador = {
     ],
     skill: contabilidadSkills
 } 
+export const cadppCertification = {
+    titulo: 'Certified Agile Digital Product Practitioner (CADPP™)',
+    resaltado: 'Certificación',
+    lugar: 'Igrowker-Trainning',
+    anio: 2025,
+    periodo: {
+        inicio: 'Abr-2025',
+        fin: 'Mayo-2025'
+    },
+    descripcion: "Certificación que valida la experiencia en el desarrollo ágil de productos digitales, alineada con estándares internacionales. Acredita habilidades en metodologías ágiles, ciclo de vida del producto digital (MVP) y trabajo en equipo en entornos orientados a la ingeniería.",
+    habilidades: null,
+    skill: [
+        { id: 1, skill: 'Metodologías Ágiles' },
+        { id: 2, skill: 'Desarrollo de Producto Digital' },
+        { id: 3, skill: 'Ciclo de Vida del Producto' },
+        { id: 4, skill: 'Trabajo en Equipo' },
+        { id: 5, skill: 'Ingeniería de Producto' }
+    ]
+}

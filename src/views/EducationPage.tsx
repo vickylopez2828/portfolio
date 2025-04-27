@@ -1,6 +1,6 @@
 import React from 'react'
 import CardEducation from '../components/education/CardEducation';
-import { android, angular, contador, reactEducation, tudai } from '../data/educationData';
+import { android, angular, cadppCertification, contador, reactEducation, tudai } from '../data/educationData';
 
 
 export default function EducationPage() {
@@ -17,6 +17,9 @@ export default function EducationPage() {
         education={reactEducation}
       />
       <CardEducation
+        education={cadppCertification}
+      />
+      <CardEducation
         education={angular}
       />
       <CardEducation
@@ -25,6 +28,7 @@ export default function EducationPage() {
       <CardEducation
         education={contador}
       />
+      
     </div>
   )
 }
