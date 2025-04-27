@@ -284,6 +284,40 @@ const androidSkills = [
     },
 
 ]
+const contabilidadSkills = [
+    {
+        id: 1,
+        skill: 'Contabilidad financiera'
+    },
+    {
+        id: 2,
+        skill: 'Auditoría'
+    },
+    {
+        id: 3,
+        skill: 'Impuestos'
+    },
+    {
+        id: 4,
+        skill: 'Gestión de costos'
+    },
+    {
+        id: 5,
+        skill: 'Políticas contables'
+    },
+    {
+        id: 6,
+        skill: 'Sistemas contables'
+    },
+    {
+        id: 7,
+        skill: 'Inventarios'
+    },
+    {
+        id: 8,
+        skill: 'Asesoría financiera'
+    }
+];
 export const tudai = {
     titulo: ' en Desarrollo de Aplicaciones Informáticas',
     resaltado: 'Técnicatura',
@@ -336,3 +370,25 @@ export const android = {
     habilidades: null,
     skill: androidSkills
 }
+
+export const contador = {
+    titulo: ' Público',
+    resaltado: 'Contador',
+    lugar: 'Universidad Nacional del Centro de la Provincia de Buenos Aires',
+    anio: 2012,
+    periodo: {
+        inicio: '2012',
+        fin: 'Incompleto'
+    },
+    descripcion: "Adquirí conocimientos en contabilidad, auditoría, impuestos y finanzas, así como en la elaboración y análisis de estados contables y presupuestarios, y la intervención en procesos judiciales y empresariales. También obtuve habilidades en la gestión de información financiera. Cursadas finalizadas, adeudando 4 finales.",
+    habilidades: [
+        'Contabilidad financiera y presupuestaria',
+        'Auditoría y revisión de estados contables',
+        'Impuestos y tributación (nacionales y provinciales)',
+        'Gestión de costos y análisis financiero',
+        'Preparación de estados contables',
+        'Gestión de inventarios y relevamientos',
+        'Asesoría en procesos judiciales contables'
+    ],
+    skill: contabilidadSkills
+} 

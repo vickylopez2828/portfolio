@@ -7,18 +7,30 @@ export const projects = [
     
     {
         id:1,
+        category: "WebApp",
+        title: "Parkify",
+        subtitle: "Gestión de estacionamientos",
+        description: "Aplicación web que conecta a conductores con estacionamientos privados en grandes ciudades, mostrando disponibilidad en tiempo real y permitiendo reservas anticipadas a través de WhatsApp.",
+        descriptionLarge: "Parkify es una aplicación web que permite a los conductores encontrar estacionamientos privados en tiempo real y hacer reservas anticipadas. A su vez los dueños de parkings pueden resgistrar y administrar la disponibilidad de los mismos. En este proyecto desarrollé componentes interactivos y dinámicos con React. Utilicé Zustand para el manejo de estado y Material UI para el diseño de los componentes. Integré Google Maps API para la visualización de estacionamientos y la geolocalización. Además, conecté el frontEnd con el backEnd (Java con SpringBoot) utilizando Axios para las llamadas API, e implementé rutas con React Router DOM para la navegación. Realicé validaciones de formularios utilizando React Hook Form y Yup, y trabajé en la creación de pantallas a partir de prototipos de Figma. También implementé notificaciones con Toastify para mejorar la experiencia de usuario. Participé en reuniones diarias con el equipo, utilizando metodologías ágiles como Scrum y Kanban. El proyecto también implementa un flujo de trabajo con Git para control de versiones.",
+        images: ["/projects/parkify.png","/projects/parkify-1.png", "/projects/parkify-2.png"],
+        skills: ["React Js", "TypeScript", "Material UI"],
+        demo: null,
+        git: "https://github.com/vickylopez2828/parkify-front"
+    },
+    {
+        id:2,
         category:"App FullStack",
         title:"Admin Productos",
         subtitle:"PERN",
         description:"Sistema completo para la gestión de productos, desarrollado con el stack PERN (PostgreSQL, Express, React, Node.js).",
         descriptionLarge: "Sistema completo para la gestión de productos. Backend: Desarrollado con Node.js y Express, utilizando Sequelize como ORM para la gestión de la base de datos en PostgreSQL. Se implementaron middlewares como cors, morgan y express-validator para la seguridad y el registro de solicitudes. La API está documentada con Swagger. Frontend: Construido con React y TypeScript, utilizando React Router DOM para la navegación y Tailwind CSS para el diseño. Pruebas: Se realizaron pruebas unitarias e integración con Jest para garantizar la estabilidad del sistema.",
         images:["/projects/admin1.png", "/projects/admin2.png"],
-        skills:["React", "Node", "Express"],
+        skills:["React Js", "Node Js", "PostgreSQL"],
         demo: null,
         git:"https://github.com/vickylopez2828/adminProductsPERN"
     },
     {
-        id:2,
+        id:3,
         category:"App",
         title:"Admin Pacientes",
         subtitle:"Veterinaria",
@@ -31,7 +43,7 @@ export const projects = [
     },
    
     {
-        id:3,
+        id:4,
         category:"App",
         title:"Guitar LA",
         subtitle:"Ecommerce de Guitarras",
@@ -44,7 +56,7 @@ export const projects = [
 
     },
     {
-        id:4,
+        id:5,
         category:"App FullStack",
         title:"Planificador de Gastos",
         subtitle:"Aplicación web",
@@ -57,7 +69,7 @@ export const projects = [
 
     },
     {
-        id:5,
+        id:6,
         category:"App FullStack",
         title:"Mundo Gaming",
         subtitle:"Angular",
@@ -70,7 +82,7 @@ export const projects = [
 
     },
     {
-        id:6,
+        id:7,
         category:"App",
         title:"Buscador de Bebidas",
         subtitle:"Bebidas y Recetas",
@@ -83,7 +95,7 @@ export const projects = [
 
     },
     {
-        id:7,
+        id:8,
         category:"App",
         title:"Cotizador Cripto",
         subtitle:"Aplicación web",
@@ -97,7 +109,7 @@ export const projects = [
     },
     
     {
-        id:8,
+        id:9,
         category:"App",
         title:"Buscador de Clima",
         subtitle:"Api del Clima",
