@@ -134,10 +134,10 @@ export const expIgrowker = {
     lugar: 'Igrowker -IT Training',
     anio: 2024,
     periodo: {
-        inicio: 'Marzo-2024',
-        fin: 'Actualidad'
+        inicio: 'Marzo-2025',
+        fin: 'Abril-2025'
     },
-    descripcion: "Actualmente me desempeño como desarrolladora front-end en Parkify, una aplicación web en desarrollo que conecta a conductores con estacionamientos privados en grandes ciudades, mostrando disponibilidad en tiempo real y permitiendo reservas anticipadas a través de WhatsApp.",
+    descripcion: "Me desempeñe como desarrolladora front-end en Parkify, una aplicación web en desarrollo que conecta a conductores con estacionamientos privados en grandes ciudades, mostrando disponibilidad en tiempo real y permitiendo reservas anticipadas a través de WhatsApp.",
     habilidades:['Desarrollo de componentes interactivos y dinámicos con React.', 'Integración de Google Maps para geolocalización y visualización de estacionamientos en tiempo real.', 'Conexión al backend para funcionalidades clave como login de usuarios, registro y gestión de parkings.', 'Diseño de pantallas a partir de prototipos de Figma.', 'Validación de formularios con React Hook Form y Yup.', 'Manejo de estado global con Zustand', 'Participación diaria en reuniones de equipo, aplicando metodologías ágiles (Scrum y Kanban).', 'Uso de Git con flujo de ramas y pull requests para control de versiones y trabajo colaborativo.'],
     skill: igrowker
 }
