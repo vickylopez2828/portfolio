@@ -41,7 +41,7 @@ export default function Layout() {
   }, []);
   return (
 
-    <div className={`bg-stone-950 w-full min-h-screen max-h-screen flex ${isVerticalLayout ? "flex-col" : "flex-row"} gap-4  text-[#EEEEEE] px-4 sm:px-2 sm:py-4 sm:pl-4`}>
+    <div className={`bg-stone-950 w-full min-h-screen max-h-[100dvh] flex ${isVerticalLayout ? "flex-col" : "flex-row"} gap-4  text-[#EEEEEE] px-4 sm:px-2 sm:py-4 sm:pl-4`}>
             
             {showDesktopNav ? <Nav /> : <NavMobile isVertical={isVerticalLayout}/>}
             {/* <CustomCursor /> */}
