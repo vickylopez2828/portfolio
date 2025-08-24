@@ -115,6 +115,88 @@ const igrowker = [
         skill: 'Kanban'
     },
 ]
+const sinergia = [
+  {
+    id: 1,
+    skill: 'React'
+  },
+  {
+    id: 2,
+    skill: 'Tailwind CSS'
+  },
+  {
+    id: 3,
+    skill: 'Lucide Icons'
+  },
+  {
+    id: 4,
+    skill: 'Heroicons'
+  },
+  {
+    id: 5,
+    skill: 'React Router'
+  },
+  {
+    id: 6,
+    skill: 'JWT Authentication'
+  },
+  {
+    id: 7,
+    skill: 'Axios'
+  },
+  {
+    id: 8,
+    skill: 'Interceptores de API'
+  },
+  {
+    id: 9,
+    skill: 'API Integration'
+  },
+  {
+    id: 10,
+    skill: 'Error Handling'
+  },
+  {
+    id: 11,
+    skill: 'React Hook Form'
+  },
+  {
+    id: 16,
+    skill: 'Responsive Design'
+  },
+  {
+    id: 17,
+    skill: 'Pixel-Perfect Design'
+  },
+  {
+    id: 18,
+    skill: 'UX/UI'
+  },
+  {
+    id: 19,
+    skill: 'Trabajo en equipo'
+  },
+  {
+    id: 20,
+    skill: 'Metodologías Ágiles'
+  }
+];
+const freelance = [
+    { id: 1, skill: 'React' },
+    { id: 2, skill: 'TypeScript' },
+    { id: 3, skill: 'Node.js' },
+    { id: 4, skill: 'Supabase' },
+    { id: 5, skill: 'PostgreSQL' },
+    { id: 6, skill: 'Tailwind CSS' },
+    { id: 7, skill: 'Zustand' },
+    { id: 8, skill: 'React Hook Form' },
+    { id: 9, skill: 'Zod' },
+    { id: 10, skill: 'Figma' },
+    { id: 11, skill: 'SEO' },
+    { id: 12, skill: 'Hosting' },
+    { id: 13, skill: 'Autonomía' },
+    { id: 14, skill: 'Gestión de proyectos' }
+]
 export const expGeneos = {
     titulo: '- Práctica Profesional Supervisada',
     resaltado: 'Desarrolladora FullStack',
@@ -140,6 +222,70 @@ export const expIgrowker = {
     descripcion: "Me desempeñe como desarrolladora front-end en Parkify, una aplicación web en desarrollo que conecta a conductores con estacionamientos privados en grandes ciudades, mostrando disponibilidad en tiempo real y permitiendo reservas anticipadas a través de WhatsApp.",
     habilidades:['Desarrollo de componentes interactivos y dinámicos con React.', 'Integración de Google Maps para geolocalización y visualización de estacionamientos en tiempo real.', 'Conexión al backend para funcionalidades clave como login de usuarios, registro y gestión de parkings.', 'Diseño de pantallas a partir de prototipos de Figma.', 'Validación de formularios con React Hook Form y Yup.', 'Manejo de estado global con Zustand', 'Participación diaria en reuniones de equipo, aplicando metodologías ágiles (Scrum y Kanban).', 'Uso de Git con flujo de ramas y pull requests para control de versiones y trabajo colaborativo.'],
     skill: igrowker
+}
+
+export const expSinergia = {
+    titulo: '- Pasante',
+    resaltado: 'Desarrolladora Frontend',
+    lugar: 'Sinergi RH - Digital',
+    anio: 2025,
+    periodo: {
+        inicio: 'Agosto-2025',
+        fin: 'Actualidad'
+    },
+    descripcion: "Me desempeño como desarrolladora front-end en una aplicación web en desarrollo que forma parte de una plataforma para clientes, comercios y repartidores. Desde el frontend web me enfoco principalmente en los perfiles de administradores y comerciantes, donde relevo el frontend (rutas, UX y consistencia con Figma) y corrijo errores de navegación y permisos por rol. También implemento rutas protegidas y autenticación JWT con interceptores de Axios, además de diseñar interfaces responsivas y pixel-perfect utilizando Tailwind junto con Lucide/Heroicons.",
+    habilidades: [
+        "Relevamiento del frontend para asegurar consistencia en rutas, UX y diseño respecto a Figma.",
+        "Implementación de rutas protegidas y autenticación JWT con interceptores de Axios.",
+        "Diseño de interfaces responsivas y pixel-perfect con Tailwind CSS y uso de librerías de íconos como Lucide/Heroicons.",
+        "Integración de endpoints de Cliente, Comercio y Repartidor con estandarización del manejo de errores de API.",
+        "Construcción de componentes reutilizables y documentación de contratos de datos para el equipo.",
+        "Implementación de formularios con React Hook Form y validaciones con Zod/Yup en el cliente."
+    ],
+   skill: sinergia
+}
+export const expFreelance = {
+    titulo: '- Profesional independiente',
+    resaltado: 'Desarrolladora FullStack',
+    lugar: 'Proyectos Freelance',
+    anio: 2025,
+    periodo: {
+        inicio: 'Enero-2025',
+        fin: 'Actualidad'
+    },
+    descripcion: 'Desarrollo soluciones a medida con React, TypeScript, Node.js, Supabase, PostgreSQL y Tailwind CSS, abarcando desde UX/UI en Figma hasta deploy y soporte.',
+    proyectos: [
+        {
+        titulo: 'Ecofirma (PWA)',
+        bullets: [
+            'Gestión de órdenes de entrega para talleres y aseguradoras.',
+            'Login y perfiles con Supabase Auth.',
+            'Listado y filtros por estado/fecha, historial de comprobantes.',
+            'Confirmación de entrega con firma/sello y PDF automático.'
+        ]
+        },
+        {
+        titulo: 'Página web institucional',
+        bullets: [
+            'Sitio corporativo con React + Tailwind y diseño UX/UI en Figma.',
+            'Formulario de contacto conectado a email corporativo.',
+            'Dominio, hosting en Hostinger y SEO básico.'
+        ]
+        }
+    ],
+    habilidades: [
+        "Diseño y desarrollo de interfaces modernas con React, TypeScript y Tailwind CSS.",
+        "Implementación de autenticación segura y manejo de perfiles con Supabase Authentication.",
+        "Gestión de estado global con Zustand para aplicaciones escalables.",
+        "Construcción de formularios dinámicos con React Hook Form y validaciones con Zod.",
+        "Integración de Supabase como backend con base de datos PostgreSQL.",
+        "Generación automática de comprobantes PDF con firma y sello digital.",
+        "Optimización de UX/UI y diseño responsivo tipo PWA a partir de prototipos en Figma.",
+        "Despliegue en producción con configuración de dominio, hosting en Hostinger y correo corporativo.",
+        "Optimización básica de SEO para mejorar la visibilidad en buscadores.",
+        "Desarrollo de páginas institucionales con integración de formularios de contacto."
+    ],
+    skill: freelance
 }
 
 const proyectos = [
