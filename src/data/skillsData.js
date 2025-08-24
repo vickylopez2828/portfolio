@@ -4,6 +4,7 @@ import { FaJava, FaNode } from "react-icons/fa";
 import { DiScrum } from "react-icons/di";
 import { PiKanbanBold } from "react-icons/pi";
 import materialIcon from "./materialIcon";
+import { SiSupabase } from "react-icons/si";
 
 
 export const frontend = [
@@ -99,6 +100,11 @@ export const backend = [
         id: 7,
         name: "Postgresql",
         icon: SiPostgresql ,
+    },
+    {
+        id:11,
+        name: "Supabase",
+        icon: SiSupabase
     },
     {
         id: 8,
