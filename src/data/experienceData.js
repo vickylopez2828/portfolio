@@ -227,7 +227,7 @@ export const expIgrowker = {
 export const expSinergia = {
     titulo: '- Pasante',
     resaltado: 'Desarrolladora Frontend',
-    lugar: 'Sinergi RH - Digital',
+    lugar: 'Sinergia RH - Digital',
     anio: 2025,
     periodo: {
         inicio: 'Agosto-2025',

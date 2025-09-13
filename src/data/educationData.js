@@ -320,7 +320,7 @@ const contabilidadSkills = [
 ];
 export const tudai = {
     titulo: ' en Desarrollo de Aplicaciones Informáticas',
-    resaltado: 'Técnicatura',
+    resaltado: 'Técnicatura Universitaria',
     lugar: 'Universidad Nacional del Centro de la Provincia de Buenos Aires',
     anio: 2024,
     periodo: {
