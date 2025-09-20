@@ -4,9 +4,32 @@
 //                 images={["/screenguitar.png", "/guitar2.png", "/guitar3.png"]}
 
 export const projects = [
-    
     {
-        id:1,
+        id:0,
+        category: "PWA",
+        title: "EcoFirma",
+        subtitle: "Gestión de órdenes de entrega",
+        description: "Ecofirma es una PWA que digitaliza la entrega y recepción de repuestos entre proveedor, taller y aseguradora: registra entregas totales/parciales, captura firma digital y actualiza los estados de la orden de forma automática.",
+        descriptionLarge: "Ecofirma es una PWA para gestionar órdenes de entrega de repuestos en siniestros, con roles de Proveedor, Taller, Aseguradora y Admin. La aseguradora define qué repuestos deben entregarse; el proveedor crea la orden, registra una o varias entregas parciales o totales, y el taller realiza la firma digital de cada entrega. La orden avanza automáticamente por los estados (pendiente → entrega_parcial/entregada → completada) según el progreso y la firma. La aseguradora puede ver las órdenes desde el inicio y el admin gestiona todo el ciclo. Técnicamente, implementé el front con React + TypeScript, manejo de estado con Zustand, formularios con React Hook Form y Yup, estilos Tailwind, navegación con React Router DOM y notificaciones Toastify y lo empaqueté como PWA (mobile-first). Integré el back existente en Supabase (Auth, Postgres, Storage), consumiendo RPCs y tablas provistas y ajustando la integración del lado del cliente. El resultado es una app instalable, rápida y con trazabilidad completa de cada orden y entrega.",
+        images: ["/projects/ecofirma.png","/projects/ecofirma2.png", "/projects/ecofirma3.png", "/projects/ecofirma4.png"],
+        skills: ["React Js", "TypeScript", "Tailwind"],
+        demo: null,
+        git: null
+    },
+    {
+        id: 1,
+        category: "Web",
+        title: "Nyxa Solutions",
+        subtitle: "Página institucional",
+        description: "Sitio web corporativo desarrollado para Nyxa Solutions, con diseño UX/UI en Figma, desarrollo frontend en React y Tailwind, integración de formulario de contacto y optimización SEO básica.",
+        descriptionLarge: "La página institucional de Nyxa Solutions fue desarrollada como un sitio web moderno y responsive para mostrar los servicios de la empresa. Realicé el diseño de UX/UI en Figma y lo implementé con React + Tailwind, cuidando la identidad visual y la experiencia del usuario. Integré un formulario de contacto conectado a un correo corporativo, configuré el dominio y hosting en Hostinger, y gestioné cuentas de email asociadas. También apliqué optimización SEO básica para mejorar la visibilidad en buscadores y desplegué el proyecto en producción. El resultado fue un sitio rápido, adaptable a distintos dispositivos y alineado con la imagen de la marca.",
+        images: ["/projects/nyxa1.png", "/projects/nyxa2.png", "/projects/nyxa3.png", "/projects/nyxa4.png"],
+        skills: ["React Js", "Tailwind", "Figma"],
+        demo: "https://nyxasolutions.com",
+        git: null
+    },
+    {
+        id:2,
         category: "WebApp",
         title: "Parkify",
         subtitle: "Gestión de estacionamientos",
@@ -18,7 +41,7 @@ export const projects = [
         git: "https://github.com/vickylopez2828/parkify-front"
     },
     {
-        id:2,
+        id:3,
         category:"App FullStack",
         title:"Admin Productos",
         subtitle:"PERN",
@@ -30,7 +53,7 @@ export const projects = [
         git:"https://github.com/vickylopez2828/adminProductsPERN"
     },
     {
-        id:3,
+        id:4,
         category:"App",
         title:"Admin Pacientes",
         subtitle:"Veterinaria",
@@ -43,7 +66,7 @@ export const projects = [
     },
    
     {
-        id:4,
+        id:5,
         category:"App",
         title:"Guitar LA",
         subtitle:"Ecommerce de Guitarras",
@@ -56,7 +79,7 @@ export const projects = [
 
     },
     {
-        id:5,
+        id:6,
         category:"App FullStack",
         title:"Planificador de Gastos",
         subtitle:"Aplicación web",
@@ -69,7 +92,7 @@ export const projects = [
 
     },
     {
-        id:6,
+        id:7,
         category:"App FullStack",
         title:"Mundo Gaming",
         subtitle:"Angular",
@@ -82,7 +105,7 @@ export const projects = [
 
     },
     {
-        id:7,
+        id:8,
         category:"App",
         title:"Buscador de Bebidas",
         subtitle:"Bebidas y Recetas",
@@ -95,7 +118,7 @@ export const projects = [
 
     },
     {
-        id:8,
+        id:9,
         category:"App",
         title:"Cotizador Cripto",
         subtitle:"Aplicación web",
@@ -109,7 +132,7 @@ export const projects = [
     },
     
     {
-        id:9,
+        id:10,
         category:"App",
         title:"Buscador de Clima",
         subtitle:"Api del Clima",
