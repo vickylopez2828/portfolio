@@ -9,6 +9,9 @@ jobs:
   test:
       name: Run Jest Tests
       runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: ./portfolio
 
       steps:
         - name: Checkout code
@@ -21,7 +24,7 @@ jobs:
             cache: 'npm'
 
         - name: Install dependencies
-          run: npm install --no-audit --no-fund --no-optional
+          run: npm ci
 
         - name: Run Jest tests
           run: npm run test
