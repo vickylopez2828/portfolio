@@ -35,6 +35,7 @@ jobs:
             name: coverage-report
             path: coverage/
 
+            
   deploy: 
     name: Deploy to Netlify (prod)
     runs-on: ubuntu-latest
