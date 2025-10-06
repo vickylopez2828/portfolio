@@ -1,3 +1,5 @@
+[![Deployment pipeline](https://github.com/vickylopez2828/portfolio/actions/workflows/pipeline.yml/badge.svg)](https://github.com/vickylopez2828/portfolio/actions/workflows/pipeline.yml)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
