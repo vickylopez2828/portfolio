@@ -1,0 +1,17 @@
+name: Portfolio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo the message
+        run: |
+          echo: "Hola portfolio"
+
+
+
