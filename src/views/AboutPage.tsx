@@ -1,7 +1,5 @@
 import { MdWavingHand } from "react-icons/md";
 import CornDecoration from "../components/CornDecoration";
-
-
 export default function AboutPage() {
   return (
     <div className='w-full  sm:w-4/5 relative bg-[rgb(26,26,26)] mx-auto my-2 lg:mx-16 rounded-lg overflow-y-scroll   '>
