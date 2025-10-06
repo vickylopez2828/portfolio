@@ -1,8 +1,5 @@
 import React from 'react'
 import { itemsNav } from '../../data/data'
-import NavItems from './NavItems'
-import { NavLink } from 'react-router-dom'
-import { SiGithub, SiGmail, SiLinkedin } from 'react-icons/si'
 import NavBarItems from './NavBarLink'
 export default function NavBar() {
   return (

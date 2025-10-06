@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import Nav from '../components/nav/Nav'
-import CustomCursor from '../components/CustomCursor'
 import NavMobile from '../components/nav/NavMobile'
-import { SiGithub, SiGmail, SiLinkedin } from 'react-icons/si'
+import { Outlet } from 'react-router-dom';
+
 
 
 export default function Layout() {

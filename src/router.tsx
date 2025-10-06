@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "./views/AboutPage";
 import SkillsPage from "./views/SkillsPage";
-import IndexPage from "./views/IndexPage";
 import Layout from "./layouts/Layout";
 import EducationPage from "./views/EducationPage";
 import ExperiencePage from "./views/ExperiencePage";

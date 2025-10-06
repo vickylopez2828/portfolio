@@ -1,10 +1,6 @@
-import { CodeBracketIcon, EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
-import { SiGmail, SiLinkedin, SiGithub } from "react-icons/si";
 import { MdWavingHand } from "react-icons/md";
-import React from 'react'
 import CornDecoration from "../components/CornDecoration";
-import { NavLink } from "react-router-dom";
+
 
 export default function AboutPage() {
   return (

@@ -1,8 +1,7 @@
-import React from 'react'
-import CardSkill from '../components/skills/CardSkill'
-import { backend, frontend, idiomas, softSkills } from '../data/skillsData'
+
+import { backend, frontend, softSkills } from '../data/skillsData'
 import ContainerSkills from '../components/skills/ContainerSkills'
-import ContainerSoftSkills from '../components/skills/ContainerSoftSkills'
+
 
 export default function SkillsPage() {
   return (

@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-import SkillItem from '../education/SkillItem'
 import { SiGithub } from 'react-icons/si'
 import { BiLinkExternal } from "react-icons/bi";
 

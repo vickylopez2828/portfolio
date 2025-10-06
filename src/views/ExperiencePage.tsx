@@ -1,6 +1,4 @@
-import React from 'react'
-import CardEducation from '../components/education/CardEducation'
-import { android, tudai } from '../data/educationData'
+
 import { expFreelance, expGeneos, expIgrowker, expSinergia, proyPersonales } from '../data/experienceData'
 import CardExperience from '../components/experience/CardExperience'
 

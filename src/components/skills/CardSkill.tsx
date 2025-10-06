@@ -1,5 +1,3 @@
-import { SiReact } from "react-icons/si";
-import React from 'react'
 
 export default function CardSkill({tecnologia}) {
     if (!tecnologia) return null; 

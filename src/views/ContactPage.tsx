@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import { useForm, SubmitHandler } from "react-hook-form";
+import { useRef, useState } from "react";
+import { useForm} from "react-hook-form";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
@@ -16,7 +16,7 @@ export default function ContactPage() {
 
   const form = useRef<HTMLFormElement>(null);
 
-  const onSubmit = (data) => {
+  const onSubmit = () => {
    
     setLoading(true);
 

@@ -1,7 +1,4 @@
-import React, { useState } from 'react'
-import { FiMenu, FiX } from "react-icons/fi";
 import { itemsNavMobile } from '../../data/data';
-import NavItems from './NavItems';
 import { BiCodeAlt } from "react-icons/bi";
 import { NavLink } from 'react-router-dom';
 export default function NavMobile() {

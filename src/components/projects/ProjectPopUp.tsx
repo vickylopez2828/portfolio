@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { AiOutlineClose } from "react-icons/ai";
 
 export default function ProjectPopup({ project, closePopup }) {
-  if (!project) return null;
 
   const [sliderSettings, setSliderSettings] = useState({
     dots: false,
@@ -29,7 +28,7 @@ export default function ProjectPopup({ project, closePopup }) {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  if (!project) return null;
   return (
     <div className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-70 flex justify-center items-center z-50 overflow-y-auto">
       <div className="relative flex flex-col gap-1 justify-center bg-gray-900 p-6 sm:px-12 rounded-lg w-11/12 md:w-2/3 lg:w-1/2 max-w-full max-h-[95vh]">
