@@ -1,8 +1,6 @@
 
 import { backend, frontend, softSkills } from '../data/skillsData'
 import ContainerSkills from '../components/skills/ContainerSkills'
-
-
 export default function SkillsPage() {
   return (
     <div className=' w-full flex flex-col gap-8 sm:w-4/5  bg-[rgb(26,26,26)] mx-auto my-2 pb-4 lg:mx-16 rounded-lg overflow-y-scroll'>
