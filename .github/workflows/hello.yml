@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: echo the message
         run: |
-          echo: "Hola portfolio"
+          echo "Hola portfolio"
 
 
 
