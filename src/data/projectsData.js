@@ -72,7 +72,7 @@ export const projects = [
         description: "Busca bebidas y genera recetas con IA en tiempo real.",
         descriptionLarge: "Aplicación en React + TypeScript que permite buscar recetas por ingrediente/categoría (API externa) y, además, generar recetas con IA usando streaming de texto. Al elegir una receta se abre un modal con Headless UI para ver detalles y guardarla como favorita. La navegación se gestiona con React Router DOM, el estado global con Zustand y el diseño con Tailwind CSS. La generación con IA se integra vía OpenRouter y `ai` (streamText) para respuesta progresiva. Deploy en Netlify.",
         images: ["/projects/bebidas.png","/projects/bebidas1.png","/projects/bebidas2.png","/projects/bebidas3.png"],
-        skills: ["React", "TS", "OpenRouter"],
+        skills: ["React", "TS", "OpenRouter", "AI Streaming"],
         demo: "https://thunderous-sunshine-e1ff96.netlify.app/",
         git: "https://github.com/vickylopez2828/apiBebidasReact"
     },
