@@ -64,7 +64,18 @@ export const projects = [
         demo: "https://66d2519d9886f0695e2f8c00--hilarious-pavlova-007ee7.netlify.app/",
         git:"https://github.com/vickylopez2828/administradorPacientesVeterinaria"
     },
-   
+      {
+        id: 5,
+        category: "App + IA",
+        title: "Buscador de Bebidas",
+        subtitle: "Búsqueda con IA y API externa",
+        description: "Busca bebidas y genera recetas con IA en tiempo real.",
+        descriptionLarge: "Aplicación en React + TypeScript que permite buscar recetas por ingrediente/categoría (API externa) y, además, generar recetas con IA usando streaming de texto. Al elegir una receta se abre un modal con Headless UI para ver detalles y guardarla como favorita. La navegación se gestiona con React Router DOM, el estado global con Zustand y el diseño con Tailwind CSS. La generación con IA se integra vía OpenRouter y `ai` (streamText) para respuesta progresiva. Deploy en Netlify.",
+        images: ["/projects/bebidas.png","/projects/bebidas1.png","/projects/bebidas2.png","/projects/bebidas3.png"],
+        skills: ["React", "TS", "OpenRouter"],
+        demo: "https://thunderous-sunshine-e1ff96.netlify.app/",
+        git: "https://github.com/vickylopez2828/apiBebidasReact"
+    },
     {
         id:6,
         category:"App",
@@ -73,7 +84,7 @@ export const projects = [
         description:"Ecommerce desarrollado con React, Tailwind y Use Reducers.",
         descriptionLarge: "Carrito de compras para una tienda virtual de guitarras utilizando React. Implementación de diversos hooks, gestión del estado global con useReducer y almacenamiento de datos en LocalStorage para preservar la información del carrito. Para la interfaz, se empleó Tailwind CSS, logrando un diseño moderno y responsive. Deployado en GitHub Pages.",
         images:["/projects/guitarPc.png", "/projects/guitarMobile.png", "/projects/guitarTablet.png"],
-        skills:["Use Reducer", "Tailwind", "Local Storage"],
+        skills:["Use Reducer", "Tailwind", "React"],
         demo: "https://vickylopez2828.github.io/ecommerceGuitarras/",
         git:"https://github.com/vickylopez2828/ecommerceGuitarras"
 
@@ -103,18 +114,6 @@ export const projects = [
         demo: "https://stackblitz.com/~/github.com/vickylopez2828/AngularSeminario",
         git:"https://github.com/vickylopez2828/AngularSeminario"
 
-    },
-    {
-        id: 5,
-        category: "App + IA",
-        title: "Buscador de Bebidas y Recetas",
-        subtitle: "Búsqueda con IA y API externa",
-        description: "Busca y genera recetas de bebidas con IA en tiempo real.",
-        descriptionLarge: "Aplicación en React + TypeScript que permite buscar recetas por ingrediente/categoría (API externa) y, además, generar recetas con IA usando streaming de texto. Al elegir una receta se abre un modal con Headless UI para ver detalles y guardarla como favorita. La navegación se gestiona con React Router DOM, el estado global con Zustand y el diseño con Tailwind CSS. La generación con IA se integra vía OpenRouter y `ai` (streamText) para respuesta progresiva. Deploy en Netlify.",
-        images: ["/projects/bebidas.png","/projects/bebidas1.png","/projects/bebidas2.png","/projects/bebidas3.png"],
-        skills: ["React", "TypeScript", "Tailwind", "Zustand", "React Router", "Headless UI", "OpenRouter", "AI Streaming"],
-        demo: "https://thunderous-sunshine-e1ff96.netlify.app/",
-        git: "https://github.com/vickylopez2828/apiBebidasReact"
     },
     {
         id:9,
