@@ -66,7 +66,7 @@ export const projects = [
     },
    
     {
-        id:5,
+        id:6,
         category:"App",
         title:"Guitar LA",
         subtitle:"Ecommerce de Guitarras",
@@ -79,7 +79,7 @@ export const projects = [
 
     },
     {
-        id:6,
+        id:7,
         category:"App FullStack",
         title:"Planificador de Gastos",
         subtitle:"Aplicación web",
@@ -92,7 +92,7 @@ export const projects = [
 
     },
     {
-        id:7,
+        id:8,
         category:"App FullStack",
         title:"Mundo Gaming",
         subtitle:"Angular",
@@ -105,17 +105,16 @@ export const projects = [
 
     },
     {
-        id:8,
-        category:"App",
-        title:"Buscador de Bebidas",
-        subtitle:"Bebidas y Recetas",
-        description:"Buscador de bebidas y recetas con React Router DOM.",
-        descriptionLarge: "Aplicación web en React y TypeScript que permite buscar recetas por ingrediente y categoría, consultando una API externa. Al seleccionar una receta, se abre un modal con Headless UI para ver los detalles y agregarla a favoritos. La navegación con React Router DOM permite explorar distintas secciones, y el diseño en Tailwind CSS ofrece una interfaz moderna y responsiva. Todo el sistema está optimizado con Zustand para el manejo de estado y desplegado en Netlify para un acceso rápido y fluido.",
-        images:["/projects/bebidas.png","/projects/bebidas1.png", "/projects/bebidas2.png", "/projects/bebidas3.png"],
-        skills:["React", "API", "Router"],
-        demo: "https://67bf28ee248a8682ffa633ea--thunderous-sunshine-e1ff96.netlify.app/",
-        git:"https://github.com/vickylopez2828/apiBebidasReact"
-
+        id: 5,
+        category: "App + IA",
+        title: "Buscador de Bebidas y Recetas",
+        subtitle: "Búsqueda con IA y API externa",
+        description: "Busca y genera recetas de bebidas con IA en tiempo real.",
+        descriptionLarge: "Aplicación en React + TypeScript que permite buscar recetas por ingrediente/categoría (API externa) y, además, generar recetas con IA usando streaming de texto. Al elegir una receta se abre un modal con Headless UI para ver detalles y guardarla como favorita. La navegación se gestiona con React Router DOM, el estado global con Zustand y el diseño con Tailwind CSS. La generación con IA se integra vía OpenRouter y `ai` (streamText) para respuesta progresiva. Deploy en Netlify.",
+        images: ["/projects/bebidas.png","/projects/bebidas1.png","/projects/bebidas2.png","/projects/bebidas3.png"],
+        skills: ["React", "TypeScript", "Tailwind", "Zustand", "React Router", "Headless UI", "OpenRouter", "AI Streaming"],
+        demo: "https://thunderous-sunshine-e1ff96.netlify.app/",
+        git: "https://github.com/vickylopez2828/apiBebidasReact"
     },
     {
         id:9,
