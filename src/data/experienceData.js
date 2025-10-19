@@ -197,6 +197,42 @@ const freelance = [
     { id: 13, skill: 'Autonomía' },
     { id: 14, skill: 'Gestión de proyectos' }
 ]
+const minddev = [
+  { id: 1, skill: 'React' },
+  { id: 2, skill: 'Tailwind CSS' },
+  { id: 3, skill: 'UX/UI Colaboración' },
+  { id: 4, skill: 'API Integración' },
+  { id: 5, skill: 'Diseño Responsive' },
+  { id: 6, skill: 'JavaScript' },
+  { id: 7, skill: 'HTML5' },
+  { id: 8, skill: 'CSS3' },
+  { id: 9, skill: 'Code Review' },
+  { id: 12, skill: 'Trabajo en equipo' },
+  { id: 14, skill: 'Accesibilidad Web' },
+  { id: 15, skill: 'Git - Control de Versiones' }
+];
+export const expMindDev = {
+//   titulo: '- Developer Frontend',
+  resaltado: 'Desarrolladora Frontend',
+  lugar: 'MindDev Perú - Jornada parcial',
+  anio: 2025,
+  periodo: {
+    inicio: 'Oct-2025',
+    fin: 'Actualidad'
+  },
+  descripcion:
+    "En mi rol actual participo en el desarrollo e implementación de interfaces web modernas y responsivas, colaborando con el equipo de diseño UX/UI para transformar prototipos en componentes funcionales. Trabajo con React y Tailwind CSS para construir interfaces dinámicas, optimizadas y mantenibles, aplicando buenas prácticas de código, semántica y performance en HTML, CSS y JavaScript. También apoyo la integración de APIs y el consumo de servicios desde el frontend, asegurando una comunicación eficiente con el backend. Contribuyo en revisiones de código, mantenimiento y mejora continua de proyectos web, participando activamente en revisiones técnicas, capacitaciones internas y reuniones de avance orientadas a la calidad y la experiencia de usuario.",
+  habilidades: [
+    "Construcción de interfaces dinámicas y adaptables con React y Tailwind CSS.",
+    "Trabajo conjunto con diseñadores para implementar prototipos UX/UI funcionales.",
+    "Optimización del rendimiento y la estructura del código front-end.",
+    "Integración fluida con APIs y servicios del backend.",
+    "Participación en revisiones de código y mejoras continuas del proyecto.",
+    "Aporte en reuniones técnicas y capacitaciones internas del equipo."
+  ],
+  skill: minddev
+};
+
 export const expGeneos = {
     titulo: '- Práctica Profesional Supervisada',
     resaltado: 'Desarrolladora FullStack',
@@ -223,15 +259,14 @@ export const expIgrowker = {
     habilidades:['Desarrollo de componentes interactivos y dinámicos con React.', 'Integración de Google Maps para geolocalización y visualización de estacionamientos en tiempo real.', 'Conexión al backend para funcionalidades clave como login de usuarios, registro y gestión de parkings.', 'Diseño de pantallas a partir de prototipos de Figma.', 'Validación de formularios con React Hook Form y Yup.', 'Manejo de estado global con Zustand', 'Participación diaria en reuniones de equipo, aplicando metodologías ágiles (Scrum y Kanban).', 'Uso de Git con flujo de ramas y pull requests para control de versiones y trabajo colaborativo.'],
     skill: igrowker
 }
-
 export const expSinergia = {
     titulo: '- Pasante',
     resaltado: 'Desarrolladora Frontend',
     lugar: 'Sinergia RH - Digital',
     anio: 2025,
     periodo: {
-        inicio: 'Agosto-2025',
-        fin: 'Actualidad'
+        inicio: 'Ago-2025',
+        fin: 'Oct-2025'
     },
     descripcion: "Me desempeño como desarrolladora front-end en una aplicación web en desarrollo que forma parte de una plataforma para clientes, comercios y repartidores. Desde el frontend web me enfoco principalmente en los perfiles de administradores y comerciantes, donde relevo el frontend (rutas, UX y consistencia con Figma) y corrijo errores de navegación y permisos por rol. También implemento rutas protegidas y autenticación JWT con interceptores de Axios, además de diseñar interfaces responsivas y pixel-perfect utilizando Tailwind junto con Lucide/Heroicons.",
     habilidades: [
@@ -358,7 +393,7 @@ export const proyPersonales = {
     anio: 2024,
     periodo: {
         inicio: 'Ene-2024',
-        fin: 'Actualidad'
+        fin: 'Julio-2025'
     },
     descripcion: "Desarrollé aplicaciones web y APIs utilizando tecnologías como React, TypeScript, Django, Node.js y Express. Implementé sistemas de gestión, cotizadores y carritos de compra, integré bases de datos, autenticación, pruebas automatizadas y despliegue en plataformas como Netlify y Vercel. Apliqué patrones de diseño, manejo avanzado de estado y documentación de APIs con Swagger.",
     habilidades:null,
